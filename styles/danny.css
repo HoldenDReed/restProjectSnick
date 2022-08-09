@@ -1,0 +1,73 @@
+.table {
+    flex-direction: column;
+    background: #dadada;
+    align-items: left;
+    margin: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    padding-left: 10px;
+}
+
+.section-title {
+    padding-left: 10px;
+}
+
+.seat-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.seat {
+    width: 40%;
+    height: 40%;
+    padding-left: 10px;
+    flex-grow: 1;
+    border: 1px black solid;
+}
+
+li {
+    list-style-type: none;
+}
+
+@keyframes glowing {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 10;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.inProgressStatus {
+    animation: glowing 1s infinite;
+    color: #f5d742;
+}
+
+.inProgressTable {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+}
+
+.completedStatus {
+    color: #3dd15f;
+}
+
+.completedTable {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}

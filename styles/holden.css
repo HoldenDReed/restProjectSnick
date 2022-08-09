@@ -1,0 +1,25 @@
+#serverHolden {
+    width: 35%;
+    background-color: darkslategray;
+    border: 10px black solid;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+.holdenTableHeader {
+    border-radius: 25px 25px 0px 0px;
+    padding: 2px;
+    background-color: grey;
+}
+.holdenOrders {
+    background-color: grey;
+    border: black 2px solid;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+.holdenButton {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}

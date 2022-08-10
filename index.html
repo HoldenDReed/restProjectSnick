@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="styles/holden.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/serverStephen.css">
+    <link rel="stylesheet" href="styles/deannaServer.css">
     <title>Restaurant Dashboard</title>
+    <link rel="stylesheet" href="/styles/danny.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Restaurant Dashboard</h1>
+    <h1 class="dashboard">Restaurant Dashboard</h1>
 <div class="container">
     <div id="serverHolden"></div>
-    <div id="serverDeanna"></div>
+    <div class="server-name" id="serverDeanna">
+        <div id="tables"></div>
+        <div id="seat"></div>
+    </div>
     <div id="serverStephen"></div>
     <div id="serverDanny"></div>
 </div>
-
+    <script src="./scripts/holdenServer.js"></script>
+    <script src="./scripts/deannaServer.js"></script>
+    <script src="./scripts/serverStephen.js"></script>
+    <script src="./scripts/dannyServer.js"></script>
 </body>
-<script src="./scripts/serverStephen.js"></script>
 </html>

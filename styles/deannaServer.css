@@ -1,0 +1,38 @@
+
+
+h4 {
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+    padding: 0px 10px 10px 10px;
+}
+
+#serverDeanna {
+    width: 40em;
+    background: rgb(49, 46, 46);
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#tables {
+    background: rgb(105, 103, 103);
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    padding: 10px 20px;
+}
+
+#seat {
+    background: whitesmoke;
+    border-radius: 15px;
+    padding: 0px 20px;
+    text-align: left;
+    list-style-type: none;
+    color: black;
+}

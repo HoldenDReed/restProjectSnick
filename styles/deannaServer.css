@@ -1,24 +1,24 @@
-
-
 h4 {
-    color: white;
-    font-size: 25px;
+    color: #023047;
+    font-size: 20px;
     margin: 15px;
     padding: 0px 10px 10px 10px;
 }
 
 #serverDeanna {
     width: 40em;
-    background: rgb(49, 46, 46);
+    background: #023047;
     border-radius: 15px;
-    color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #ffb703;
     padding: 5px;
     text-align: center;
 }
 
 #tables {
-    background: rgb(105, 103, 103);
+    background: #fa9b2f;
     border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin: 10px;
     padding: 10px;
@@ -29,10 +29,11 @@ ul {
 }
 
 #seat {
-    background: whitesmoke;
+    background: #f7e7bf;
     border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
     padding: 0px 20px;
     text-align: left;
     list-style-type: none;
-    color: black;
+    color: #023047;
 }

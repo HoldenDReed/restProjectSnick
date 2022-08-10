@@ -1,36 +1,42 @@
 .patron-header {
   background: #dadada;
-  background-color: gold;
+  background-color: #85CAC0;
   display: flexbox;
   padding: 8px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 00px 0px;
   font-weight: 600;
  
 }
 
 .patron-details {
-  background-color: lightgray;
+  background-color: lightcyan;
   margin-top: 0;
   padding-top: 4px;
   padding-bottom: 8px;
   border-radius: 0px 0px 20px 20px;
   /* background-color: mediumseagreen; */
 }
-.container {
+/* .container {
   flex-direction: row;  
-  flex-wrap: wrap;
+  flex-wrap: auto;
   padding: 40px;
-}
+} */
 .table {
-  border: solid black;
+  border: solid black 5px;
   
-background-color: red;
-
+background-color: #03007C;
 text-align: center;
+color: white;
+border-radius: 20px 20px 0px 0px;
 
 }
-.patronCss{
-border: solid black 1px;
-background-color: grey;
+.patronsCss{
+border: solid black 5px;
+border-radius: 20px 0px 20px;
+background-color: #F4CB6D;
 padding: 10px;
+}
+
+#serverStephen{
+  width: 35%;
 }

@@ -5,7 +5,7 @@ const servers = [
     }
 ]
 
-const tables = [
+const stephenTables = [
     {
         id: 1,
         serverId: 2,
@@ -150,12 +150,12 @@ let serverContent = "";
 
 serverContent += `<h3>Server: ${servers[0].name}</h3>`;
 
-tables.forEach((table) => {
+stephenTables.forEach((table) => {
   const patronsAtTable = patrons.filter(
     (patron) => patron.tableId === table.id
   );
   serverContent += `
-    <div class= "table">
+    <div class= "stephenTable">
       <strong>Table: ${table.id}</strong>
       </div>
       `;

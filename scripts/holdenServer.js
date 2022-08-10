@@ -110,7 +110,7 @@ let holdenOrder=""
 for(let i = 0; i < tables.length; i++){
 
 
-    tableHtml = `<h4 class ="holdenTableHeader">Table number: ${tables[i].id}</h4>`;
+    tableHtml = `<h4 class ="holdenTableHeader">Table Number: ${tables[i].id}</h4>`;
 
     for(let j = 0; j < patrions.length; j++){
        if(patrions[j].tableNumber === tables[i].id){
@@ -128,6 +128,7 @@ for(let i = 0; i < tables.length; i++){
     };
     holdenOrder += tableHtml
 };
+
 
 
 

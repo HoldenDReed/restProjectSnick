@@ -1,10 +1,11 @@
 #serverHolden {
-    width: 35%;
+    width: 40em;
     background-color: darkslategray;
     border: 10px black solid;
     text-align: center;
     border-radius: 25px;
     color: white;
+    height: 50%;
 }
 .holdenTableHeader {
     border-radius: 25px 25px 0px 0px;

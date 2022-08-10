@@ -5,4 +5,8 @@
 }
 .dashboard{
     text-align: center;
+    font-size: 50px;
+}
+body{
+    background-color: rgb(119, 119, 182);
 }

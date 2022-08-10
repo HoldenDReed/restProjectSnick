@@ -1,5 +1,7 @@
 #serverHolden {
-    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
     background-color: darkslategray;
     border: 10px black solid;
     text-align: center;

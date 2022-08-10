@@ -177,7 +177,7 @@ let header = `<div class="server-name"><h3 class="header">Server Name: ${serverD
 
 let inProgressOrders = '<div class="section-title"><u>In Progress Tables</u>:</div>'
 
-let completedOrders = '<div class="section-title"><u>Completed Tables</strong>:</div>'
+let completedOrders = '<div class="section-title"><u>Completed Tables</u>:</div>'
 
 for (const table of serverDanny[0].tables) {
      if (table.isOrderComplete === false){

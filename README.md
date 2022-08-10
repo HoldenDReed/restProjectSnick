@@ -1,3 +1,5 @@
 # Snickerdoodlers Resturaunt Dashboard
 
-## Created by Deanna, Stephen, Danny, and Holden
+## NSS E20 Sprint #2
+
+### Created by Deanna Hollifield, Stephen Rudge, Danny Herrmann, and Holden Reed

@@ -106,7 +106,7 @@ const serverDeanna = {
 
     ]
 }
-let header = `<div class="server-name"><h3>Server Name: ${serverDeanna.name}</h3></div>`
+let deannaHeader = `<div class="server-name"><h3>Server Name: ${serverDeanna.name}</h3></div>`
 
 let tableCard = ''
 
@@ -124,7 +124,7 @@ for (const table of serverDeanna.tables) {
     tableCard += `</div>`
 }
     
-let display = header += tableCard
+let display = deannaHeader += tableCard
     
 console.log(display);
 

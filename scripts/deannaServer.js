@@ -123,7 +123,7 @@ let deannaHeader = `<div class="server-name"><h3>Server Name: ${serverDeanna.nam
 let tableCard = ''
 
 for (const table of serverDeanna.tables) {
-    tableCard += `<div id="tables"><h4>Table #: ${table.table}</h4>`
+    tableCard += `<div id="tablesDeanna"><h4 id="tableNumbers">Table #: ${table.table}</h4>`
     
     for (const patron of table.patrons) {
         tableCard += `<div id="seat"><ul><u>Seat #: ${patron.patronId}</u><br><br>`

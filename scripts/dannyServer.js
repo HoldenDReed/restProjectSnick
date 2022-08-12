@@ -9,30 +9,30 @@ const serverDanny = [
                 patrons: [
                     {
                         patronId: 1,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
+                        mealOrdered: "real deal california roll",
+                        drinkOrdered: "high life",
+                        dessertOrdered: "cake",
                         totalCost: 30
                     },
                     {
                         patronId: 2,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
+                        mealOrdered: "Beef Lo Mein",
+                        drinkOrdered: "Mai Tai",
                         dessertOrdered: "Lava Cake",
-                        totalCost: 30
+                        totalCost: 43.92
                     },
                     {
                         patronId: 3,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 30
+                        mealOrdered: ["Korean Waffle Fries", "Potstickers"],
+                        drinkOrdered: "Chardonnay",
+                        dessertOrdered: "Ice Cream",
+                        totalCost: 24.58
                     },
                     {
                         patronId: 4,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
+                        mealOrdered: ["The Peruvian", "Crab Rangoon"],
+                        drinkOrdered: "Sapporo",
+                        dessertOrdered: "",
                         totalCost: 30
                     }]
             },
@@ -44,15 +44,15 @@ const serverDanny = [
                         patronId: 1,
                         mealOrdered: ["Californication","blink 182na", "Spicy Tuna"],
                         drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 30
+                        dessertOrdered: "Strawberry Ice Cream",
+                        totalCost: 43.55
                     },
                     {
                         patronId: 2,
-                        mealOrdered: ["Californication","blink 182na"],
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 50
+                        mealOrdered: "Spicy Tuna",
+                        drinkOrdered: "PBR",
+                        dessertOrdered: "",
+                        totalCost: 20
                     },
                     {
                         patronId: 3,
@@ -168,7 +168,26 @@ const serverDanny = [
                         dessertOrdered: "McFlurry",
                         totalCost: 15
                     }]
-            }
+            },
+            {
+                table: 5,
+                isOrderComplete: true,
+                patrons: [
+                    {
+                        patronId: 1,
+                        mealOrdered: "Pizza",
+                        drinkOrdered: "Miller Light",
+                        dessertOrdered: "Ice Cream",
+                        totalCost: 25
+                    },
+                    {
+                        patronId: 2,
+                        mealOrdered: "Cheeseburger",
+                        drinkOrdered: "Coke",
+                        dessertOrdered: "McFlurry",
+                        totalCost: 15
+                    }]
+            }    
         ]
     }
 ]

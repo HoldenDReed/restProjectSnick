@@ -12,3 +12,7 @@
 body{
     background-color: rgb(119, 119, 182);
 }
+
+.margin {
+    margin-bottom: 20px;
+}

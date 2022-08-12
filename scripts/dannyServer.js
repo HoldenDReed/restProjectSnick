@@ -49,7 +49,7 @@ const serverDanny = [
                     },
                     {
                         patronId: 2,
-                        mealOrdered: "Tacos",
+                        mealOrdered: ["Californication","blink 182na"],
                         drinkOrdered: "Moscow Mule",
                         dessertOrdered: "Lava Cake",
                         totalCost: 50
@@ -173,7 +173,7 @@ const serverDanny = [
     }
 ]
 
-let header = `<div class="server-name"><h3 class="header">Server ID: ${serverDanny[0].id}<br>Server Name: ${serverDanny[0].name}</h3></div>`
+let header = `<div class="server-name"><h3 class="header">Server Name: ${serverDanny[0].name}</h3></div>`
 
 let inProgressOrders = '<div class="section-title"><u>In Progress Tables</u>:</div>'
 

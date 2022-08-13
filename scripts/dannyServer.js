@@ -63,37 +63,23 @@ const serverDanny = [
                     },
                     {
                         patronId: 4,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 50
+                        mealOrdered: "Pizza",
+                        drinkOrdered: "Bud Light",
+                        dessertOrdered: "",
+                        totalCost: 19.89
                     },
                     {
                         patronId: 5,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 50
+                        mealOrdered: "The Emmy",
+                        drinkOrdered: "Gin & Tonic",
+                        dessertOrdered: "Banana Pudding",
+                        totalCost: 32
                     },
                     {
                         patronId: 6,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 50
-                    },
-                    {
-                        patronId: 7,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 50
-                    },
-                    {
-                        patronId: 8,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
+                        mealOrdered: "Hot Chicken",
+                        drinkOrdered: "Milk",
+                        dessertOrdered: "",
                         totalCost: 50
                     }]
             },
@@ -103,49 +89,49 @@ const serverDanny = [
                 patrons: [
                     {
                         patronId: 1,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
+                        mealOrdered: "Chicken Sandwhich",
+                        drinkOrdered: "Sweet Tea",
+                        dessertOrdered: "Bananas Foster",
                         totalCost: 30,
                         tip: 5
                     },
                     {
                         patronId: 2,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 30,
+                        mealOrdered: "Fish Tacos",
+                        drinkOrdered: "Margarita",
+                        dessertOrdered: "Fruit Sorbet Trio",
+                        totalCost: 24.67,
                         tip: 3
                     },
                     {
                         patronId: 3,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 30,
-                        tip: 3
+                        mealOrdered: "Kale Ceasar",
+                        drinkOrdered: "Diet Coke",
+                        dessertOrdered: "Italian Wedding Cake",
+                        totalCost: 40,
+                        tip: 5
                     },
                     {
                         patronId: 4,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 30,
-                        tip: 3
+                        mealOrdered: "Veggie Platter",
+                        drinkOrdered: "Strawberry Daquiri",
+                        dessertOrdered: "Double Chocolate Brownie",
+                        totalCost: 24,
+                        tip: 2
                     },
                     {
                         patronId: 5,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
-                        totalCost: 30,
-                        tip: 3
+                        mealOrdered: "Steak & Potatoes",
+                        drinkOrdered: "Miller Light",
+                        dessertOrdered: "Georgia Peach Cobbler",
+                        totalCost: 41.25,
+                        tip: 6
                     },
                     {
                         patronId: 6,
-                        mealOrdered: "Tacos",
-                        drinkOrdered: "Moscow Mule",
-                        dessertOrdered: "Lava Cake",
+                        mealOrdered: "Surf & Turf",
+                        drinkOrdered: "White Claw",
+                        dessertOrdered: "Key Lime Pie",
                         totalCost: 30,
                         tip: 3
                     }]
@@ -156,16 +142,16 @@ const serverDanny = [
                 patrons: [
                     {
                         patronId: 1,
-                        mealOrdered: "Pizza",
-                        drinkOrdered: "Miller Light",
-                        dessertOrdered: "Ice Cream",
+                        mealOrdered: "Ahi Tuna Salad",
+                        drinkOrdered: "Water w/ lemon",
+                        dessertOrdered: "Cake Pops",
                         totalCost: 25
                     },
                     {
                         patronId: 2,
-                        mealOrdered: "Cheeseburger",
-                        drinkOrdered: "Coke",
-                        dessertOrdered: "McFlurry",
+                        mealOrdered: "Chimichanga",
+                        drinkOrdered: "Rum & Coke",
+                        dessertOrdered: "",
                         totalCost: 15
                     }]
             },
@@ -175,17 +161,19 @@ const serverDanny = [
                 patrons: [
                     {
                         patronId: 1,
-                        mealOrdered: "Pizza",
+                        mealOrdered: "California Burrito",
                         drinkOrdered: "Miller Light",
-                        dessertOrdered: "Ice Cream",
-                        totalCost: 25
+                        dessertOrdered: "Chocolate Fondue Bar",
+                        totalCost: 23.98,
+                        tip: 2
                     },
                     {
                         patronId: 2,
-                        mealOrdered: "Cheeseburger",
+                        mealOrdered: "Trash Can Nachos",
                         drinkOrdered: "Coke",
-                        dessertOrdered: "McFlurry",
-                        totalCost: 15
+                        dessertOrdered: "Blueberry Loaf",
+                        totalCost: 13,
+                        tip: 3
                     }]
             }    
         ]

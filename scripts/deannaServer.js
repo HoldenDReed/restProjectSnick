@@ -140,6 +140,6 @@ for (const table of serverDeanna.tables) {
     
 let display = deannaHeader += tableCard
     
-console.log(display);
+// console.log(display);
 
 document.getElementById('serverDeanna').innerHTML = display

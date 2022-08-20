@@ -5,7 +5,7 @@
 //         id: 3,
 //         name: "Stephen"
 //     }
-// ]
+// // ]
 
 // const stephenTables = [
 //     {
@@ -193,9 +193,14 @@ const servers = getServerData()
 
 let serverContent = "";
 
-serverContent += `<h3>Server: ${servers[2].name}</h3>`;
+const server = servers.filter((s) => s.id === 3); 
 
-tables.forEach((table) => {
+serverContent += `<h3>Server: ${server[0].name} </h3>`;
+
+const displayTables = tables.filter((t) => t.serverId === 3)
+
+
+displayTables.forEach((table) => {
   const patronsAtTable = patrons.filter(
     (patron) => patron.tableId === table.id
   );
@@ -220,8 +225,8 @@ tables.forEach((table) => {
           
           `;
         });
-    });     
+    });    
+    
+    
     
 document.getElementById("serverStephen").innerHTML = serverContent;
-;
-console.log(serverContent)

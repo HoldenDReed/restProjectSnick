@@ -62,6 +62,61 @@ const tables = [
         id: 9,
         serverId: 3     
     }
+        serverId: 1 
+    },
+    {
+        id: 2,
+        serverId: 1 
+    },
+    {
+        id: 3,
+        serverId: 1 
+    },
+    {
+        id: 4,
+        serverId: 2 
+    },
+    {
+        id: 5,
+        serverId: 2
+    },
+    {
+        id: 6,
+        serverId: 2
+    },
+    {
+        id: 7,
+        serverId: 3
+    },
+    {
+        id: 8,
+        serverId: 3
+    },
+    {
+        id: 9,
+        serverId: 3
+    },
+    {
+        id: 10,
+        serverId: 4
+    },
+    {
+        id: 11,
+        serverId: 4
+    },
+    {
+        id: 12,
+        serverId: 4
+    },
+    {
+        id: 13,
+        serverId: 4
+    },
+    {
+        id: 14,
+        serverId: 4
+    }
+
 ]
 export const getTableData = () => {
     const tableData = tables.map(table => ({...table}))
@@ -71,8 +126,8 @@ export const getTableData = () => {
 
     
 
-    //patron ID Management:
-    //Holden: 1-10
+// Patron ID Management:
+    // Holden: 1-10
     // Deanna: 11 - 25
     // Stephen: 26 - 40
     // Danny: 41 - however many
@@ -198,9 +253,23 @@ const patrons = [
         totalCost: 45,
         isOrderCompleted: true,
     },
+    {
+        patronId: 1,
+        tableId: 1,
+        mealOrdered: "",
+        drinkOrdered: "",
+        dessertOrdered: "",
+        totalCost: 25,
+        isOrderCompleted: true,
+    },
 ]
 
 export const getPatronData = () => {
     const patronData = patrons.map(patron => ({...patron}))
     return patronData
+
+return getPatronData
+    const tableData = tables.map(table => ({...table}))
+    const patronData = patrons.map(patron => ({...patron}))
+    return (serverData, tableData, patronData)
 }

@@ -1,0 +1,41 @@
+.patron-header {
+  background: #dadada;
+  background-color: #85CAC0;
+  display: flexbox;
+  padding: 8px;
+  border-radius: 20px 20px 00px 0px;
+  font-weight: 600;
+ 
+}
+
+.patron-details {
+  background-color: lightcyan;
+  margin-top: 0;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  border-radius: 0px 0px 20px 20px;
+  /* background-color: mediumseagreen; */
+}
+/* .container {
+  flex-direction: row;  
+  flex-wrap: auto;
+  padding: 40px;
+} */
+.stephenTable {
+  border: solid black 5px;
+background-color: #03007C;
+text-align: center;
+color: white;
+border-radius: 20px 20px 0px 0px;
+
+}
+.patronsCss{
+border: solid black 5px;
+border-radius: 20px 0px 20px;
+background-color: #F4CB6D;
+padding: 10px;
+}
+
+#serverStephen{
+  width: 35%;
+}

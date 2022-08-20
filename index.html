@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="styles/holden.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/serverStephen.css">
     <link rel="stylesheet" href="styles/deannaServer.css">
     <title>Restaurant Dashboard</title>
+    <link rel="stylesheet" href="/styles/danny.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Restaurant Dashboard</h1>
+    <h1 class="dashboard">Restaurant Dashboard</h1>
 <div class="container">
-    <div id="serverHolden"></div>
-    <div class="server-name" id="serverDeanna">
-        <div id="tables"></div>
+    <div id="serverHolden" class="margin"></div>
+    <div class="server-name" id="serverDeanna" class="margin">
+        <div id="tablesDeanna"></div>
         <div id="seat"></div>
+        <div id="seatTotal"></div>
     </div>
-    <div id="serverStephen"></div>
-    <div id="serverDanny"></div>
+    <div id="serverStephen" class="margin"></div>
+    <div id="serverDanny" class="margin"></div>
 </div>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/holdenServer.js"></script>
-    <script src="scripts/deannaServer.js"></script>
-    <script src="scripts/stephenServer.js"></script> 
-    <script src="scripts/dannyServer.js"></script>
+    <script type="module" src="./scripts/holdenServer.js"></script>
+    <script type="module" src="./scripts/deannaServer.js"></script>
+    <script type="module" src="./scripts/serverStephen.js"></script>
+    <script type="module" src="./scripts/dannyServer.js"></script>
 </body>
 </html>

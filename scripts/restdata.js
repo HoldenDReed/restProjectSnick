@@ -87,7 +87,69 @@ const tables = [
     // Danny: 41 - however many
 
 const patrons = [
-
+    {
+        patronId: 1,
+        tableId: 1,
+        mealOrdered: "Bacon Burger",
+        drinkOrdered: "Jack & Coke",
+        dessertOrdered: "Lava Cake",
+        totalCost: 56,
+        isOrderCompleted: true
+    },
+    {
+        patronId: 2,
+        tableId: 1,
+        mealOrdered: "Quesadilla",
+        drinkOrdered: "Lime Margarita",
+        dessertOrdered: "Mega Cookie",
+        totalCost: 40,
+        isOrderCompleted: true
+    },
+    {
+        patronId: 3,
+        tableId: 1,
+        mealOrdered: "Fajita",
+        drinkOrdered: "Black Berry Margarita",
+        dessertOrdered: "Mega Cookie",
+        totalCost: 34,
+        isOrderCompleted: true
+    },
+    {
+        patronId: 4,
+        tableId: 2,
+        mealOrdered: "Tacos",
+        drinkOrdered: "Maleficent",
+        dessertOrdered: "Ice Cream",
+        totalCost: 28,
+        isOrderCompleted: true
+    },
+    {
+        patronId: 5,
+        tableId: 2,
+        mealOrdered: "Fish Sandwich",
+        drinkOrdered: "Boba Tea",
+        dessertOrdered: "None",
+        totalCost: 22,
+        isOrderCompleted: true
+    },
+    {
+        patronId: 6,
+        tableId: 3,
+        mealOrdered: "Steak",
+        drinkOrdered: "Bud light",
+        dessertOrdered: "Ice cream",
+        totalCost: 35,
+        isOrderCompleted: true
+    },
+    {
+        patronId: 7,
+        tableId: 3,
+        mealOrdered: "Tacos",
+        drinkOrdered: "Moscow Mule",
+        dessertOrdered: "Lava Cake",
+        totalCost: 30,
+        isOrderCompleted: true
+    },
     {
         patronId: 1,
         tableId: 1,

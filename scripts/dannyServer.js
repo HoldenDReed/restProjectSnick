@@ -240,6 +240,6 @@ for (const table of serverDanny[0].tables) {
 
 let page = header += inProgressOrders += completedOrders
 
-console.log(page)
+// console.log(page)
 
 document.getElementById('serverDanny').innerHTML = page

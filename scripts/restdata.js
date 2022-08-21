@@ -89,15 +89,113 @@ const tables = [
 const patrons = [
 
     {
-        patronId: 1,
-        tableId: 1,
-        mealOrdered: "",
-        drinkOrdered: "",
-        dessertOrdered: "",
-        totalCost: 25,
-        isOrderCompleted: true,
+        patronId: 11,
+        tableId: 4,
+        mealOrdered: "Chicken Tacos",
+        drinkOrdered: "Moscow Mule",
+        dessertOrdered: "Lava Cake",
+        totalCost: 15,
+        isOrderComplete: true
     },
-
+    {
+        patronId: 12,
+        tableId: 4,
+        mealOrdered: "Cheeseburger",
+        drinkOrdered: "Diet Coke",
+        dessertOrdered: "Vanilla Ice Cream",
+        totalCost: 25,
+        orderComplete: true
+    },
+    {
+        patronId: 13,
+        tableId: 4,
+        mealOrdered: "Meatloaf",
+        drinkOrdered: "Milk",
+        dessertOrdered: "Strawberry Cheesecake",
+        totalCost: 30,
+        orderComplete: false
+    },
+    {
+        patronId: 14,
+        tableId: 4,
+        mealOrdered: "Fish Tacos",
+        drinkOrdered: "Margarita",
+        dessertOrdered: "Chocolate Pudding",
+        totalCost: 20,
+        orderComplete: true
+    },
+    {
+        patronId: 15,
+        tableId: 5,
+        mealOrdered: "Grilled Cheese",
+        drinkOrdered: "Sweet Tea",
+        dessertOrdered: "Strawberry Shortcake",
+        totalCost: 10,
+        orderComplete: false
+    },
+    {
+        patronId: 12,
+        tableId: 5,
+        mealOrdered: "Veggie Burger",
+        drinkOrdered: "Unsweet Tea",
+        dessertOrdered: "Fruit Plate",
+        totalCost: 35,
+        orderComplete: false
+    },
+    {
+        patronId: 17,
+        tableId: 5,
+        mealOrdered: "Chicken Nachos",
+        drinkOrdered: "Coke",
+        dessertOrdered: "Cinnamon Donuts",
+        totalCost: 25,
+        orderComplete: false
+    },
+    {
+        patronId: 18,
+        tableId: 5,
+        mealOrdered: "Chicken Fingers",
+        drinkOrdered: "Shirley Temple",
+        dessertOrdered: "Chocolate Ice Cream",
+        totalCost: 20,
+        orderComplete: true
+    },
+    {
+        patronId: 19,
+        tableId: 6,
+        mealOrdered: "Ribeye Steak",
+        drinkOrdered: "Jack and Coke",
+        dessertOrdered: "Pecan Pie",
+        totalCost: 40,
+        orderComplete: true 
+    },
+    {
+        patronId: 20,
+        tableId: 6,
+        mealOrdered: "Fried Fish",
+        drinkOrdered: "Sprite",
+        dessertOrdered: "Chocolate Chip Cookies",
+        totalCost: 20,
+        orderComplete: true
+    },
+    {
+        patronId: 21,
+        tableId: 6,
+        mealOrdered: "Spaghetti",
+        drinkOrdered: "Water",
+        dessertOrdered: "Tiramisu",
+        totalCost: 25,
+        orderComplete: true
+    },
+    {
+        patronId: 22,
+        tableId: 6,
+        mealOrdered: "Turkey and Dressing",
+        drinkOrdered: "Dr. Pepper",
+        dessertOrdered: "Pumpkin Pie",
+        totalCost: 30,
+        orderComplete: true
+    }
 ]
 
 export const getServerData = () => {

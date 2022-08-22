@@ -16,7 +16,13 @@ const servers = [
         id: 4,
         name: "Danny"
     }
+
 ]
+export const getServerData = () => {
+    const serverData = servers.map(server => ({...server}))
+    return serverData
+}
+
 
 const tables = [
 
@@ -54,7 +60,7 @@ const tables = [
     },
     {
         id: 9,
-        serverId: 3 
+        serverId: 3     
     },
     {
         id: 10,
@@ -77,6 +83,13 @@ const tables = [
         serverId: 4
     }
 ]
+export const getTableData = () => {
+    const tableData = tables.map(table => ({...table}))
+    return tableData
+}
+     
+
+    
 
 // Patron ID Management:
     // Holden: 1-10 Table 1,2,3
@@ -149,9 +162,9 @@ const patrons = [
         isOrderCompleted: true
     },
     {
-        id: 26,
+        id: 26, 
         // name: "John",
-        tableId: 1,
+        tableId: 7,
         mealOrdered: "Burger-well done",
         drinkOrdered: "Dr. Pepper",
         dessertOrdered: "Lava Cake",
@@ -161,7 +174,7 @@ const patrons = [
     {
         id: 27,
         // name: "Susie",
-        tableId: 1,
+        tableId: 8,
         mealOrdered: "sushi",
         drinkOrdered: "Sprite",
         dessertOrdered: "Ice Cream",
@@ -171,7 +184,7 @@ const patrons = [
     {
         id: 28,
         // name:"jackson",
-        tableId: 1,
+        tableId: 9,
         mealOrdered: "Tacos",
         drinkOrdered: "Water",
         dessertOrdered: "Brownie",
@@ -181,7 +194,7 @@ const patrons = [
     {
         id: 29,
         // name:"Holly",
-        tableId: 1,
+        tableId: 7,
         mealOrdered: "Chicken wrap",
         drinkOrdered: "Coke",
         dessertOrdered: "Tiramisu",
@@ -191,7 +204,7 @@ const patrons = [
     {
         id: 30,
         // name:"Brad",
-        tableId: 2,
+        tableId: 8,
         mealOrdered: "Burger",
         drinkOrdered: "Dr. Pepper",
         dessertOrdered: "Lava Cake",
@@ -201,7 +214,7 @@ const patrons = [
     {
         id: 31,
         // name: "George",
-        tableId: 2,
+        tableId: 9,
         mealOrdered: "Sushi",
         drinkOrdered: "Sprite",
         dessertOrdered: "Ice Cream",
@@ -211,7 +224,7 @@ const patrons = [
     {
         id: 32,
         // name: "Riley",
-        tableId: 2,
+        tableId: 7,
         mealOrdered: "Tacos",
         drinkOrdered: "Water",
         dessertOrdered: "Brownie",
@@ -221,7 +234,7 @@ const patrons = [
     {
         id: 33,
         // name: "Tina",
-        tableId: 2,
+        tableId: 8,
         mealOrdered: "Wrap",
         drinkOrdered: "Coke",
         dessertOrdered: "Tiramisu",
@@ -231,7 +244,7 @@ const patrons = [
     {
         id: 34,
         // name: "Johanna",
-        tableId: 3,
+        tableId: 9,
         mealOrdered: "Wrap",
         drinkOrdered: "Coke",
         dessertOrdered: "Gingerbread",
@@ -241,7 +254,7 @@ const patrons = [
     {
         id: 35,
         // name: "Adam",
-        tableId: 3,
+        tableId: 7,
         mealOrdered: "Wrap",
         drinkOrdered: "Coke",
         dessertOrdered: "Mazurek",
@@ -251,7 +264,7 @@ const patrons = [
     {
         id: 36,
         // name: "Yolanda",
-        tableId: 3,
+        tableId: 8,
         mealOrdered: "wrap",
         drinkOrdered: "Coke",
         dessertOrdered: "Ontbijtkoek",
@@ -261,24 +274,18 @@ const patrons = [
     {
         id: 37,
         // name: "Jessica",
-        tableId: 3,
+        tableId: 9,
         mealOrdered: "Chicken Alfredo",
         drinkOrdered: "7Up",
         dessertOrdered: "Sfouf",
         totalCost: 45,
         isOrderCompleted: true,
-    },
+    }
 ]
 
-export const getServerData = () => {
-    const serverData = servers.map(server => ({...server}))
-    return getServerData()
-}
-export const getTableData = () => {
-    const tableData = tables.map(table => ({...table}))
-    return getTableData
-}
 export const getPatronData = () => {
     const patronData = patrons.map(patron => ({...patron}))
+    return patronData
+
 return getPatronData
 }

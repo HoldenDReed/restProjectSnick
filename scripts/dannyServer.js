@@ -12,8 +12,6 @@ let inProgressOrders = '<div class="section-title"><u>In Progress Tables</u>:</d
 
 let completedOrders = '<div class="section-title"><u>Completed Tables</u>:</div>'
 
-// Start Format Data Set
-
 let dannyTables = tables.filter(table => table.serverId === 4)
 
 for (const table of dannyTables) {
@@ -29,8 +27,6 @@ for (const table of dannyTables) {
     table.isOrderCompleted2 = table.patrons[0].isOrderCompleted
 
 }
-
-// End Format Data Set
 
 for (const table of dannyTables) {
     if (table.isOrderCompleted2 === false) {

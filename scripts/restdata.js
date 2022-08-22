@@ -286,6 +286,4 @@ const patrons = [
 export const getPatronData = () => {
     const patronData = patrons.map(patron => ({...patron}))
     return patronData
-
-return getPatronData
 }

@@ -6,7 +6,9 @@ const servers = getServerData()
 const tables = getTableData()
 const patrons = getPatronData()
 
-let header = `<div class="server-name"><h3 class="header">Server Name: ${servers[3].name}</h3></div>`
+const dannyServer = servers.filter((danny) => danny.id === 4)
+
+let header = `<div class="server-name"><h3 class="header">Server Name: ${dannyServer[0].name}</h3></div>`
 
 let inProgressOrders = '<div class="section-title"><u>In Progress Tables</u>:</div>'
 

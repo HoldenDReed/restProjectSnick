@@ -111,7 +111,7 @@ const patrons = [
         drinkOrdered: "Lime Margarita",
         dessertOrdered: "Mega Cookie",
         totalCost: 40,
-        isOrderCompleted: true
+        isOrderCompleted: false
     },
     {
         patronId: 3,
@@ -138,7 +138,7 @@ const patrons = [
         drinkOrdered: "Boba Tea",
         dessertOrdered: "None",
         totalCost: 22,
-        isOrderCompleted: true
+        isOrderCompleted: false
     },
     {
         patronId: 6,

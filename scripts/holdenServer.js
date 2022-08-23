@@ -81,53 +81,50 @@
 //         serverId:1
 //     },
 // ]
-import {getServerData} from `./restdata.js`
-import {getPatronData} from `./restdata.js`
-import {getTablesData} from `./restdata.js`
+
+import {getServerData} from './restdata.js'
+import {getPatronData} from './restdata.js'
+import {getTableData} from './restdata.js'
 
 console.log("This is working")
 
 let servers = getServerData();
 let patrons = getPatronData();
-let tables = getTablesData();
-tables = tables.filter(table => table.serverId === 1); //Might need refracting
-patrons.forEach(patron => {
-    if(patron.tableId === tables.id){
-    patron.serverId = 1
-    }
-});
-patrons = patrons.filter(patron => patron.serverId === 1); //Might need refracting
+let tables = getTableData();
 
+tables = tables.filter((table) => table.serverId === 1); //Might need refracting
+// patrons.forEach(patron => {
+//     if(patron.tableId === tables.id){
+//     patron.serverId = 1
+//     }
+// });
+console.log(patrons)
 let holdenGreetings =`<h3>Serve Name: ${servers[0].name}</h3>
 <h4>Table numbers assigned: `
 
 tables.forEach(table => {
-    holdenGreetings + `${table[0].id},`
+    holdenGreetings += `${table.id} `
 });
-holdenGreetings + `</h4>`
+holdenGreetings += ` </h4>`
 
 let holdenOrder=""
-
-for(let i = 0; i < tables.length; i++){
-    tableHtml = `<h4 class ="holdenTableHeader">Table Number: ${tables[i].id}</h4>`;
-    for(let j = 0; j < patrons.length; j++){
-       if(patrons[j].tableId === tables[i].id){
+let tableHtml = ""
+tables.forEach((table) => {
+    let newPatrons = patrons.filter((patron) => patron.tableId === table.id);
+     tableHtml += `<h4 class ="holdenTableHeader">Table Number: ${table.id}</h4>`;
+     newPatrons.forEach((patron) => {
         tableHtml +=
                     `<div class="holdenOrders">
-                    <div>Customer Number: ${patrons[j].patronId}</div>
-                    <div>Meal Ordered: ${patrons[j].mealOrdered}</div>
-                    <div>Drink Ordered: ${patrons[j].drinkOrdered}</div>
-                    <div>Desert Ordered: ${patrons[j].dessertOrdered}</div>
-                    <div>Total Cost: $${patrons[j].totalCost}</div><br>
+                    <div>Customer Number: ${patron.patronId}</div>
+                    <div>Meal Ordered: ${patron.mealOrdered}</div>
+                    <div>Drink Ordered: ${patron.drinkOrdered}</div>
+                    <div>Desert Ordered: ${patron.dessertOrdered}</div>
+                    <div>Total Cost: $${patron.totalCost}</div>
+                    <div>Order status: ${patron.isOrderCompleted ? "[Compeleted]" : "[In Progress]"}</div><br>
                     <button class="holdenButton">Bump Order</button>
                     </div>`;
-       } 
-       
-    };
-    holdenOrder += tableHtml
-};
-
+    });
+});
+holdenOrder += tableHtml
 
 document.getElementById('serverHolden').innerHTML = holdenGreetings + holdenOrder
-
-// new

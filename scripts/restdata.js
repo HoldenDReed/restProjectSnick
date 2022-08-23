@@ -165,7 +165,7 @@ const patrons = [
         drinkOrdered: "Moscow Mule",
         dessertOrdered: "Lava Cake",
         totalCost: 15,
-        isOrderComplete: true
+        isOrderCompleted: true
     },
     {
         patronId: 12,
@@ -174,7 +174,7 @@ const patrons = [
         drinkOrdered: "Diet Coke",
         dessertOrdered: "Vanilla Ice Cream",
         totalCost: 25,
-        orderComplete: true
+        isOrderCompleted: true
     },
     {
         patronId: 13,
@@ -183,7 +183,7 @@ const patrons = [
         drinkOrdered: "Milk",
         dessertOrdered: "Strawberry Cheesecake",
         totalCost: 30,
-        orderComplete: false
+        isOrderCompleted: false
     },
     {
         patronId: 14,
@@ -192,7 +192,7 @@ const patrons = [
         drinkOrdered: "Margarita",
         dessertOrdered: "Chocolate Pudding",
         totalCost: 20,
-        orderComplete: true
+        isOrderCompleted: true
     },
     {
         patronId: 15,
@@ -201,7 +201,7 @@ const patrons = [
         drinkOrdered: "Sweet Tea",
         dessertOrdered: "Strawberry Shortcake",
         totalCost: 10,
-        orderComplete: false
+        isOrderCompleted: false
     },
     {
         patronId: 16,
@@ -210,7 +210,7 @@ const patrons = [
         drinkOrdered: "Unsweet Tea",
         dessertOrdered: "Fruit Plate",
         totalCost: 35,
-        orderComplete: false
+        isOrderCompleted: false
     },
     {
         patronId: 17,
@@ -219,7 +219,7 @@ const patrons = [
         drinkOrdered: "Coke",
         dessertOrdered: "Cinnamon Donuts",
         totalCost: 25,
-        orderComplete: false
+        isOrderCompleted: false
     },
     {
         patronId: 18,
@@ -228,7 +228,7 @@ const patrons = [
         drinkOrdered: "Shirley Temple",
         dessertOrdered: "Chocolate Ice Cream",
         totalCost: 20,
-        orderComplete: true
+        isOrderCompleted: true
     },
     {
         patronId: 19,
@@ -237,7 +237,7 @@ const patrons = [
         drinkOrdered: "Jack and Coke",
         dessertOrdered: "Pecan Pie",
         totalCost: 40,
-        orderComplete: true 
+        isOrderCompleted: true 
     },
     {
         patronId: 20,
@@ -246,7 +246,7 @@ const patrons = [
         drinkOrdered: "Sprite",
         dessertOrdered: "Chocolate Chip Cookies",
         totalCost: 20,
-        orderComplete: true
+        isOrderCompleted: true
     },
     {
         patronId: 21,
@@ -255,7 +255,7 @@ const patrons = [
         drinkOrdered: "Water",
         dessertOrdered: "Tiramisu",
         totalCost: 25,
-        orderComplete: true
+        isOrderCompleted: true
     },
     {
         patronId: 22,
@@ -264,7 +264,7 @@ const patrons = [
         drinkOrdered: "Dr. Pepper",
         dessertOrdered: "Pumpkin Pie",
         totalCost: 30,
-        orderComplete: true
+        isOrderCompleted: true
     },
     {
         id: 26, 

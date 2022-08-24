@@ -230,172 +230,172 @@ const menuDrinks = [
 
         {
             id: 1,
-            mealName: "",
+            drinkName: "Jack & Coke",
+            drinkDescription: "An easygoing cocktail that blends Jack Daniels whiskey with cola.",
+            drinkCost: 12
         },
         {
             id: 2,
-            mealName: ""         
+            drinkName: "Lime Margarita",
+            drinkDescription: "Tequila mixed with tart lime, pure cane sugar, and a subtle hint of orange.",
+            drinkCost: 10      
         },
         {
             id: 3,
+            drinkName: "Blackberry Margarita",
+            drinkDescription: "Featuring blackberry liqueur along with silver tequila, lime juice and Cointreau.",
+            drinkCost: 14     
         },
         {
-            id: 4
+            id: 4,
+            drinkName: "Maleficent",
+            drinkDescription: "Made with vodka, raspberry liqueur, lime juice, and a secret ingredient to give it a magical shimmering look.",
+            drinkCost: 11  
         },
         {
-            id: 5
+            id: 5,
+            drinkName: "Water with Lemon",
+            drinkDescription: "Filtered spring water with lemon wedges.",
+            drinkCost: 1 
         },
         {
-            id: 6
+            id: 6,
+            drinkName: "Boba Tea",
+            drinkDescription: "A cold, flavored tea beverage that contains large chewy tapioca balls.",
+            drinkCost: 8
         },
         {
-            id: 7
+            id: 7,
+            drinkName: "Bud Light",
+            drinkDescription: "A light beer brewed using a combination of barley malts, rice and a blend of premium aroma hop varieties.",
+            drinkCost: 6
         },
         {
-            id: 8
+            id: 8,
+            drinkName: "Moscow Mule",
+            drinkDescription: "A delightfully fizzy drink made with fiery ginger beer, vodka and fresh lime.",
+            drinkCost: 12
         },
         {
-            id: 9
+            id: 9,
+            drinkName: "Diet Coke",
+            drinkDescription: "A sugar-free and no-calorie soft drink.",
+            drinkCost: 3
+
         },
         {
-            id:9
+            id: 10,
+            drinkName: "Margarita",
+            drinkDescription: "A classic that combines tequila, lime and triple sec for ultimate refreshment.",
+            drinkCost: 11
         },
         {
-            id: 10
+            id: 11,
+            drinkName: "Sweet Tea",
+            drinkDescription: "A tea that is brewed very strong with a large amount of sugar added while the tea is hot.",
+            drinkCost: 3
         },
         {
-            id: 11
+            id: 12,
+            drinkName: "Unsweet Tea",
+            drinkDescription: "Iced black tea with no added sugar.",
+            drinkCost: 3
         },
         {
-            id: 12
+            id: 13,
+            drinkName: "Coke",
+            drinkDescription: "A carbonated soft drink flavored with vanilla, cinnamon, citrus oils and other flavorings.",
+            drinkCost: 3
+
         },
         {
-            id: 13
+            id: 14,
+            drinkName: "Shirley Temple",
+            drinkDescription: "A non-alcoholic drink made with ginger ale, lime juice and a splash of grenadine, garnished with a maraschino cherry.",
+            drinkCost: 5
         },
         {
-            id:14
+            id: 15,
+            drinkName: "Sprite",
+            drinkDescription: "A crisp, refreshing and clean-tasting lemon and lime-flavored soft drink.",
+            drinkCost: 3
         },
         {
-            id: 15
+            id: 16,
+            drinkName: "Water",
+            drinkDescription: "Filtered spring water.",
+            drinkCost: 1
         },
         {
-            id: 16
+            id: 17,
+            drinkName: "Dr. Pepper",
+            drinkDescription: "A deep and bold drink that is a combination of 23 flavors including anything from peppery to minty to fruity.",
+            drinkCost: 3
         },
         {
-            id: 17
+            id: 18,
+            drinkName: "7Up",
+            drinkDescription: "A lemon-lime flavored caffeine-free soft drink.",
+            drinkCost: 3
         },
         {
-            id: 18
+            id: 19,
+            drinkName: "miller High Life",
+            drinkDescription: "A crisp, easy-drinking American lager.",
+            drinkCost: 6
         },
         {
-            id: 19
+            id: 20,
+            drinkName: "Mai Tai",
+            drinkDescription: "A rum cocktail, orange liqueur and almond syrup.",
+            drinkCost: 12
         },
         {
-            id: 20
+            id: 21,
+            drinkName: "Chardonnay",
+            drinkDescription: "White wine with a fruity-yet-acidic balance.",
+            drinkCost: 15
         },
         {
-            id: 21
+            id: 22,
+            drinkName: "Sapporo",
+            drinkDescription: "A refreshing lager with a crisp, refined flavor and a clean finish.",
+            drinkCost: 10
         },
         {
-            id: 22
+            id: 23,
+            drinkName: "PBR",
+            drinkDescription: "An American lager with a prized flavor from original grains, malt, yeast, and the finest hops.",
+            drinkCost: 6
         },
         {
-            id: 23
+            id: 24,
+            drinkName: "Gin & Tonic",
+            drinkDescription: "A highball cocktail made with gin and tonic water poured over a large amount of ice.",
+            drinkCost: 11
         },
         {
-            id: 24
+            id: 25,
+            drinkName: "Milk",
+            drinkDescription: "Locally sourced cold cow's milk.",
+            drinkCost: 4
         },
         {
-            id: 25
+            id: 26,
+            drinkName: "Strawberry Daiquiri",
+            drinkDescription: "A frozen treat of blended rum, lime, simple syrup and fresh strawberries.",
+            drinkCost: 13
         },
         {
-            id: 26
+            id: 27,
+            drinkName: "Miller Light",
+            drinkDescription: "A smooth, light and refreshing American-style pilsner beer.",
+            drinkCost: 8
         },
         {
-            id: 27
-        },
-        {
-            id: 28
-        },
-        {
-            id: 20
-        },
-        {
-            id: 21
-        },
-        {
-            id: 22
-        },
-        {
-            id: 23
-        },
-        {
-            id: 24
-        },
-        {
-            id: 25
-        },
-        {
-            id: 26
-        },
-        {
-            id: 27
-        },
-        {
-            id: 28
-        },
-        {
-            id: 29
-        },
-        {
-            id: 30
-        },
-        {
-            id: 31
-        },
-        {
-            id: 32
-        },
-        {
-            id: 33
-        },
-        {
-            id: 34
-        },
-        {
-            id: 35
-        },
-        {
-            id: 36
-        },
-        {
-            id: 37
-        },
-        {
-            id: 38
-        },
-        {
-            id: 39
-        },
-        {
-            id: 40
-        },
-        {
-            id: 41
-        },
-        {
-            id: 42
-        },
-        {
-            id: 43
-        },
-        {
-            id: 44
-        },
-        {
-            id: 45
-        },
-        {
-            id: 46
+            id: 28,
+            drinkName: "White Claw",
+            drinkDescription: "A light, refreshing hard seltzer in a variety of fruit flavors.",
+            drinkCost: 7
         },
     ]

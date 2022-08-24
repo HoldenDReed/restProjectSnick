@@ -300,7 +300,7 @@ const patrons = [
         id: 29,
         // name:"Holly",
         tableId: 7,
-        mealOrdered: "Chicken wrap",
+        mealOrdered: "Chicken Wrap",
         drinkOrdered: "Coke",
         dessertOrdered: "Tiramisu",
         totalCost: 20,

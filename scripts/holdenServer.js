@@ -124,30 +124,3 @@ holdenOrder += tableHtml
 
 document.getElementById('serverHolden').innerHTML = holdenGreetings + holdenOrder
 
-// var mealHtml = ""
-// menuMeal.forEach(meal => {
-//     mealHtml += 
-//     `<div>Name: ${meal.mealName}</div>
-//      <div>Description: ${meal.mealDescription}</div>
-//      <div>Cost: $${meal.mealCost}</div>`
-// });
-
-// var drinksHtml = ""S
-// menuDrinks.forEach(drink => {
-//     drinksHtml += 
-//     `<div>Name: ${drink.drinkName}</div>
-//      <div>Description: ${drink.drinkDescription}</div>
-//      <div>Cost: $${drink.drinkCost}</div>`
-// });
-
-// var dessertsHtml = ""
-// menuDesserts.forEach(dessert => {
-//     dessertsHtml += 
-//     `<div class="itemName">Name: ${dessert.dessertName}</div>
-//      <div>Description: ${dessert.dessertDescription}</div>
-//      <div>Cost: $${dessert.dessertCost}</div>`
-// });
-
-// document.getElementById('meals').innerHTML = mealHtml
-// document.getElementById('drinks').innerHTML = drinksHtml
-// document.getElementById('desserts').innerHTML = dessertsHtml

@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+
+.menuItems{
+    width: 225px;
+    margin: 10px;
+    background-color: black;
+    outline: 3px solid grey;
+    outline-offset: 5px;
+    border-radius: 0.5em;
+    padding: 10px 10px;
+}
+.itemName{
+    font-style: bold;
+}

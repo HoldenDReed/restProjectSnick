@@ -4,7 +4,7 @@ const menuMeal = [
         id: 1,
         mealName: "Bacon Burger",
         mealCost: 12,
-        mealDescription: "a simple burger with bacon"
+        mealDescription: "A simple burger with bacon"
     },
     {
         id: 2,
@@ -16,19 +16,19 @@ const menuMeal = [
         id: 3,
         mealName: "Fajita",
         mealCost: 13,
-        mealDescription: "finely cut beef mixed with onions"  
+        mealDescription: "Finely cut beef mixed with onions"  
     },
     {
         id: 4,
         mealName:"Tacos" ,    
         mealCost: 9,
-        mealDescription: "tortilla with beef and cilantro with a squeeze of lemon"
+        mealDescription: "Tortilla with beef and cilantro with a squeeze of lemon"
     }, 
     {
         id: 5,
         mealName:"Fish Sandwich" ,    
         mealCost: 15,
-        mealDescription: "breaded fish, a soft bun, a slice of cheese and tangy tartar sauce."
+        mealDescription: "Breaded fish, a soft bun, a slice of cheese and tangy tartar sauce."
     },   
     {
         id: 6,
@@ -64,7 +64,7 @@ const menuMeal = [
         id: 10,
         mealName: "Grilled Cheese",
         mealCost: 9,
-        mealDescription: "bread and cheese toasted to perfection."
+        mealDescription: "Bread and cheese toasted to perfection."
     },
     {
         id: 11,
@@ -82,7 +82,7 @@ const menuMeal = [
         id: 13,
         mealName: "Chicken Fingers",
         mealCost: 10,
-        mealDescription: "butter battered chicken fingers"
+        mealDescription: "Butter battered chicken fingers"
     },
     {
         id:14,
@@ -94,25 +94,25 @@ const menuMeal = [
         id: 15,
         mealName: "Fried Fish",
         mealCost: 15,
-        mealDescription: "deep fried fish coated with the best seasonings"
+        mealDescription: "Deep fried fish coated with the best seasonings"
     },
     {
         id: 16,
         mealName: "Spaghetti",
         mealCost: 12,
-        mealDescription: "A spicy blend of tender chicken, sausage, and diced meatballs with green peppers and onions. Seasoned with Tabasco® and Sambal Chili Paste.",
+        mealDescription: "A spicy blend of tender chicken, sausage, and diced meatballs with green peppers and onions. Seasoned with Tabasco® and Sambal Chili Paste."
     },
     {
         id: 17,
         mealName: "Turkey and Dressing",
         mealCost: 12,
-        mealDescription: "your choice of dark or light meat. Lightly seasoned with a southern dressing the kind your ma would eat."
+        mealDescription: "Your choice of dark or light meat. Lightly seasoned with a southern dressing the kind your ma would eat."
     },
     {
         id: 18,
         mealName: "Burger",
         mealCost: 14,
-        mealDescription: "our sugnature burger cooked to order with lettuce and onion on the side"
+        mealDescription: "Our sugnature burger cooked to order with lettuce and onion on the side"
     },
     {
         id: 19,
@@ -124,7 +124,7 @@ const menuMeal = [
         id: 20,
         mealName: "Chicken wrap",
         mealCost: 13,
-        mealDescription: " This Chicken Wrap is made with tangy buffalo chicken, carrots, lettuce, avocado, and a thin layer of creamy dressing. "
+        mealDescription: "This Chicken Wrap is made with tangy buffalo chicken, carrots, lettuce, avocado, and a thin layer of creamy dressing."
     },
     {
         id: 21,
@@ -148,14 +148,14 @@ const menuMeal = [
         id: 24,
         mealName: "Korean Waffle Fries",
         mealCost: 9,
-        mealDescription: "beef bulgogi chili, beer cheese, kimchi on fries"
+        mealDescription: "Beef bulgogi chili, beer cheese, kimchi on fries"
 
     },
     {
         id: 25,
         mealName: "The Peruvian",
         mealCost: 20,
-        mealDescription: "tuna, avo, pickled radish top: shrimp ceviche, aji amarillo vin"
+        mealDescription: "Tuna, avo, pickled radish top: shrimp ceviche, aji amarillo vin"
     },
     {
         id: 26,
@@ -167,13 +167,13 @@ const menuMeal = [
         id: 27,
         mealName: "Crab Rangoon",
         mealCost: 18,
-        mealDescription: "from China Garden - Mt Pleasant. ... Crab meat and cream cheese dumplings, deep fried until crispy."
+        mealDescription: "From China Garden - Mt Pleasant. ... Crab meat and cream cheese dumplings, deep fried until crispy."
     },
     {
         id: 28,
         mealName: "Californication",
         mealCost: 18,
-        mealDescription: "crab, avo, jalapeno | top: salmon, spicy mayo, eel sauce, sesame seeds"
+        mealDescription: "Crab, avo, jalapeno | top: salmon, spicy mayo, eel sauce, sesame seeds"
     },
     {
         id: 20,
@@ -185,7 +185,7 @@ const menuMeal = [
         id: 21,
         mealName: "blink 182na",
         mealCost: 18,
-        mealDescription: "spicy tuna, cuke | top: yellowtail, avo, negi, togarashi, ponzu"
+        mealDescription: "Spicy tuna, cuke | top: yellowtail, avo, negi, togarashi, ponzu"
     },
     {
         id: 22,
@@ -264,7 +264,7 @@ const menuMeal = [
         id: 34,
         mealName: "The Dagwood Sandswich",
         mealCost: 19,
-        mealDescription: "una Salad. Lettuce, Tomatoes, Onions, Pickles, Salt and Pepper ; Meatball. Dagwood's Homemade Meatballs, Melted Provolone Cheese ; Buffalo Chicken."
+        mealDescription: "Tuna Salad. Lettuce, Tomatoes, Onions, Pickles, Salt and Pepper ; Meatball. Dagwood's Homemade Meatballs, Melted Provolone Cheese ; Buffalo Chicken."
     },
     
 ]
@@ -631,3 +631,34 @@ const menuDesserts = [
         dessertCost: 10
     }
 ]
+
+var mealHtml = ""
+mealHtml += `<h2>Meals</h2>`
+menuMeal.forEach(meal => {
+    mealHtml += 
+    `<div><strong>${meal.mealName}</strong></div>
+     <div><i>${meal.mealDescription}</i></div>
+     <div>$${meal.mealCost}</div><br>`
+});
+
+var drinksHtml = ""
+drinksHtml += `<h2>Drinks</h2>`
+menuDrinks.forEach(drink => {
+    drinksHtml += 
+    `<div><strong>${drink.drinkName}</strong></div>
+     <div><i>${drink.drinkDescription}</i></div>
+     <div>$${drink.drinkCost}</div><br>`
+});
+
+var dessertsHtml = ""
+dessertsHtml += `<h2>Desserts</h2>`
+menuDesserts.forEach(dessert => {
+    dessertsHtml += 
+    `<div><strong>${dessert.dessertName}</strong></div>
+     <div><i>${dessert.dessertDescription}</i></div>
+     <div>$${dessert.dessertCost}</div><br>`
+});
+
+document.getElementById('meals').innerHTML = mealHtml
+document.getElementById('drinks').innerHTML = drinksHtml
+document.getElementById('desserts').innerHTML = dessertsHtml

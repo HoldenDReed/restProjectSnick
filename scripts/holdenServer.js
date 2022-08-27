@@ -92,13 +92,8 @@ let servers = getServerData();
 let patrons = getPatronData();
 let tables = getTableData();
 
-tables = tables.filter((table) => table.serverId === 1); //Might need refracting
-// patrons.forEach(patron => {
-//     if(patron.tableId === tables.id){
-//     patron.serverId = 1
-//     }
-// });
-console.log(patrons)
+tables = tables.filter((table) => table.serverId === 1);
+
 let holdenGreetings =`<h3>Serve Name: ${servers[0].name}</h3>
 <h4>Table numbers assigned: `
 
@@ -128,3 +123,4 @@ tables.forEach((table) => {
 holdenOrder += tableHtml
 
 document.getElementById('serverHolden').innerHTML = holdenGreetings + holdenOrder
+

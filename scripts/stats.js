@@ -75,25 +75,65 @@ const getRestTipTotals = () => {
     } return sum(restTipTotal).toFixed(2)
 }
 
-let stats = ''
+let resturauntStats = ''
+
+resturauntStats += `</div><div class="rest"><h3>Resturaunt Totals:<br><br>
+                
+                    Tables: ${countServerTables(tables)}<br>
+                    Total: $${getRestTotals()}<br>
+                    Tips: $${getRestTipTotals()}
+                </div>`
+
+document.getElementById('resturaunt-stats').innerHTML = resturauntStats
+
+let profiles = ''
 
 for (const server of servers) {
-    stats +=
-
-        `<div class="server">
-            <h3>Server Name:</b> ${server.name}</h3>
-                <ul>
-                    <li>Table Count: ${countServerTables(findServerTables(server.id))}
-                    <li>Total: $${getServerTotals(server.id)}
-                    <li>Tips: $${getServerTipTotals(server.id)}
-                </ul>
-        </div>`
+    if (server.id === 1) {
+        profiles += 
+        `<div class="profile">
+         <h3>${server.name}</h3>
+         <img src="/styles/holden.jpg">
+         </div>
+         <div class="profile">
+         <b>Table Count:</b> ${countServerTables(findServerTables(server.id))}<br>
+         <b>Total:</b> $${getServerTotals(server.id)}<br>
+         <b>Tips:</b> $${getServerTipTotals(server.id)}
+         </div>&nbsp&nbsp&nbsp&nbsp`
+    } else if (server.id === 2) {
+        profiles +=
+        `<div class="profile">
+         <h3>${server.name}</h3>
+         <img src="/styles/deanna.jpg">
+         </div>
+         <div class="profile">
+         <b>Table Count:</b> ${countServerTables(findServerTables(server.id))}<br>
+         <b>Total:</b> $${getServerTotals(server.id)}<br>
+         <b>Tips:</b> $${getServerTipTotals(server.id)}
+         </div><br>`
+    } else if (server.id === 3) {
+        profiles += 
+        `<div class="profile">
+         <h3>${server.name}</h3>
+         <img src="/styles/stephen.jpg">
+         </div>
+         <div class="profile">
+         <b>Table Count:</b> ${countServerTables(findServerTables(server.id))}<br>
+         <b>Total:</b> $${getServerTotals(server.id)}<br>
+         <b>Tips:</b> $${getServerTipTotals(server.id)}
+         </div>&nbsp&nbsp&nbsp&nbsp`
+    } else if (server.id === 4) {
+        profiles +=
+        `<div class="profile">
+         <h3>${server.name}</h3>
+         <img src="/styles/danny.jpg">
+         </div>
+         <div class="profile">
+         <b>Table Count:</b> ${countServerTables(findServerTables(server.id))}<br>
+         <b>Total:</b> $${getServerTotals(server.id)}<br>
+         <b>Tips:</b> $${getServerTipTotals(server.id)}
+         </div>`
+    }
 }
 
-stats += `<div><h3>Resturaunt Totals:
-                <ul>
-                    <li>Total: $${getRestTotals()}
-                    <li>Tips: $${getRestTipTotals()}
-                <ul></div>`
-
-document.getElementById('container').innerHTML = stats
+document.getElementById('server-profiles').innerHTML = profiles

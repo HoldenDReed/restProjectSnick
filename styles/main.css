@@ -16,3 +16,32 @@ body{
 .margin {
     margin-bottom: 20px;
 }
+
+.NavLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    height: 60px;
+    text-decoration: none;
+    align-items: center;
+  }
+
+.active {
+    border: 2px solid blanchedalmond;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    color: black;
+}
+.active:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: darkslategray;
+    color: white;
+}

@@ -102,6 +102,7 @@ const patrons = [
         drinkOrdered: "Jack & Coke",
         dessertOrdered: "Lava Cake",
         totalCost: 56,
+        tip: 11.20,
         isOrderCompleted: true
     },
     {
@@ -120,6 +121,7 @@ const patrons = [
         drinkOrdered: "Black Berry Margarita",
         dessertOrdered: "Mega Cookie",
         totalCost: 34,
+        tip: 6.80,
         isOrderCompleted: true
     },
     {
@@ -129,6 +131,7 @@ const patrons = [
         drinkOrdered: "Maleficent",
         dessertOrdered: "Ice Cream",
         totalCost: 28,
+        tip: 10,
         isOrderCompleted: true
     },
     {
@@ -147,6 +150,7 @@ const patrons = [
         drinkOrdered: "Bud light",
         dessertOrdered: "Ice cream",
         totalCost: 35,
+        tip: 7,
         isOrderCompleted: true
     },
     {
@@ -156,6 +160,7 @@ const patrons = [
         drinkOrdered: "Moscow Mule",
         dessertOrdered: "Lava Cake",
         totalCost: 30,
+        tip: 6,
         isOrderCompleted: true
     },
     {
@@ -165,6 +170,7 @@ const patrons = [
         drinkOrdered: "Moscow Mule",
         dessertOrdered: "Lava Cake",
         totalCost: 15,
+        tip: 3,
         isOrderCompleted: true
     },
     {
@@ -174,6 +180,7 @@ const patrons = [
         drinkOrdered: "Diet Coke",
         dessertOrdered: "Vanilla Ice Cream",
         totalCost: 25,
+        tip: 5,
         isOrderCompleted: true
     },
     {
@@ -192,6 +199,7 @@ const patrons = [
         drinkOrdered: "Margarita",
         dessertOrdered: "Chocolate Pudding",
         totalCost: 20,
+        tip: 4,
         isOrderCompleted: true
     },
     {
@@ -228,6 +236,7 @@ const patrons = [
         drinkOrdered: "Shirley Temple",
         dessertOrdered: "Chocolate Ice Cream",
         totalCost: 20,
+        tip: 4,
         isOrderCompleted: true
     },
     {
@@ -237,6 +246,7 @@ const patrons = [
         drinkOrdered: "Jack and Coke",
         dessertOrdered: "Pecan Pie",
         totalCost: 40,
+        tip: 8,
         isOrderCompleted: true 
     },
     {
@@ -246,6 +256,7 @@ const patrons = [
         drinkOrdered: "Sprite",
         dessertOrdered: "Chocolate Chip Cookies",
         totalCost: 20,
+        tip: 4,
         isOrderCompleted: true
     },
     {
@@ -255,6 +266,7 @@ const patrons = [
         drinkOrdered: "Water",
         dessertOrdered: "Tiramisu",
         totalCost: 25,
+        tip: 5,
         isOrderCompleted: true
     },
     {
@@ -264,6 +276,7 @@ const patrons = [
         drinkOrdered: "Dr. Pepper",
         dessertOrdered: "Pumpkin Pie",
         totalCost: 30,
+        tip: 6,
         isOrderCompleted: true
     },
     {
@@ -274,6 +287,7 @@ const patrons = [
         drinkOrdered: "Dr. Pepper",
         dessertOrdered: "Lava Cake",
         totalCost: 25,
+        tip: 5,
         isOrderCompleted: true,
     },
     {
@@ -294,6 +308,7 @@ const patrons = [
         drinkOrdered: "Water",
         dessertOrdered: "Brownie",
         totalCost: 35,
+        tip: 7,
         isOrderCompleted: true,
     },
     {
@@ -304,6 +319,7 @@ const patrons = [
         drinkOrdered: "Coke",
         dessertOrdered: "Tiramisu",
         totalCost: 20,
+        tip: 4,
         isOrderCompleted: true,
     },
     {
@@ -314,6 +330,7 @@ const patrons = [
         drinkOrdered: "Dr. Pepper",
         dessertOrdered: "Lava Cake",
         totalCost: 15.50,
+        tip: 3.10,
         isOrderCompleted: true,
     },
     {
@@ -324,6 +341,7 @@ const patrons = [
         drinkOrdered: "Sprite",
         dessertOrdered: "Ice Cream",
         totalCost: 12.75,
+        tip: 2.55,
         isOorderCompleted: true,
     },
     {
@@ -334,6 +352,7 @@ const patrons = [
         drinkOrdered: "Water",
         dessertOrdered: "Brownie",
         totalCost: 12.75,
+        tip: 2.55,
         isOrderCompleted: true,
     },
     {
@@ -344,6 +363,7 @@ const patrons = [
         drinkOrdered: "Coke",
         dessertOrdered: "Tiramisu",
         totalCost: 22.50,
+        tip: 4.50,
         isOrderCompleted: true,
     },
     {
@@ -354,6 +374,7 @@ const patrons = [
         drinkOrdered: "Coke",
         dessertOrdered: "Gingerbread",
         totalCost: 16,
+        tip: 3.20,
         isOrderCompleted: true,
     },
     {
@@ -364,6 +385,7 @@ const patrons = [
         drinkOrdered: "Coke",
         dessertOrdered: "Mazurek",
         totalCost: 23,
+        tip: 4.60,
         isOrderCompleted: true,
     },
     {
@@ -374,6 +396,7 @@ const patrons = [
         drinkOrdered: "Coke",
         dessertOrdered: "Ontbijtkoek",
         totalCost: 27,
+        tip: 5.40,
         isOrderCompleted: true,
     },
     {
@@ -384,6 +407,7 @@ const patrons = [
         drinkOrdered: "7Up",
         dessertOrdered: "Sfouf",
         totalCost: 45,
+        tip: 9,
         isOrderCompleted: true,
     },
     {
@@ -483,7 +507,7 @@ const patrons = [
         drinkOrdered: "Sweet Tea",
         dessertOrdered: "Bananas Foster",
         totalCost: 30,
-        tip: 5,
+        tip: 6,
         isOrderCompleted: true
     },
     {

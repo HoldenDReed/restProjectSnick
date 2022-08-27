@@ -1,12 +1,30 @@
+body{
+    background-color: navy;
+    color: white;
+}
 .menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly
 }
-
+/* .menuMeals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.menuDrinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.menuDesserts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+} */
 
 .menuItems{
-    width: 225px;
+    width: 90%;
     margin: 10px;
     background-color: black;
     outline: 3px solid grey;
